@@ -1,3 +1,5 @@
-cpt.tamu.edu
-cptgnome.tamu.edu
-cpt-rancher.tamu.edu
+usegalaxy.org
+test.galaxyproject.org
+galaxyproject.org
+toolshed.g2.bx.psu.edu
+testtoolshed.g2.bx.psu.edu
