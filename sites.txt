@@ -3,3 +3,6 @@ test.galaxyproject.org
 galaxyproject.org
 toolshed.g2.bx.psu.edu
 testtoolshed.g2.bx.psu.edu
+jenkins.galaxyproject.org
+help.galaxyproject.org
+training.galaxyproject.org
