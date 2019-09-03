@@ -1,6 +1,6 @@
 #!/bin/bash
 CURRENT_TIME=$(date "+%s")
-WARNING_TIME=$(echo "$CURRENT_TIME + (60 * 60 * 24 * 90)" | bc)
+WARNING_TIME=$(echo "$CURRENT_TIME + (60 * 60 * 24 * 14)" | bc)
 printf "<testsuite tests=\"%s\">" $(wc -l sites.txt | sed 's/ .*//g')
 for fqdn in `cat sites.txt`; do
 	notAfter=$(openssl s_client -showcerts -connect $fqdn:443 < /dev/null 2> /dev/null | openssl x509 -noout -enddate | sed 's/notAfter=//g')
